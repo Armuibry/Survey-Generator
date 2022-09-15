@@ -40,7 +40,7 @@ function AddServey2(props) {
         
     }
   return (
-    <div>
+    <div className="formdiv">
       <label className="questionLabel" htmlFor="question">
         ✅ Question?
       </label>

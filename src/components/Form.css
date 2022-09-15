@@ -12,7 +12,7 @@
 .container{
     display: block;
     height: fit-content;
-    width: 200px;
+    width: 600px;
     background-color: #ffffff;
     box-shadow: inset;
     justify-content: center;
@@ -25,30 +25,37 @@
 }
 
 img{
-    height: 30px;
-    width: 100px;
-    margin-top: 10px;
+    height: 100px;
+    width: 300px;
+    margin-top: 50px;
 }
 
 h1{
     background-color: #06ffd5;
-    font-size: 20px;
+    font-size: 40px;
     width: 100vw;
     color: #ffffff;
 }
 
 .button{
-    display: block;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin: auto;
+    padding: 20px;
     
 }
 
 button{
-    height: 40px;
-    width: 120px;
+    height: 60px;
+    width: 200px;
     background-color: #dd7429;
     color: #ffffff;
     border: none;
     margin-top: 30px;
+    font-size: 20px;
     cursor: pointer;
 }
 
@@ -60,8 +67,11 @@ button{
     border: 0px;
     background-color: #dd7429;
     color: #ffffff;
-    margin-top: 10px;
-    font-size: 16px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 30px;
+    padding: 10px;
+    text-align: start;
 }
 
 .select option{
@@ -69,47 +79,55 @@ button{
     color: #ffffff;
 }
 
+.formdiv {
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    width: fit-content;
+    margin: auto;
+
+}
+
 .questionLabel{
-    float: left;
-    font-size: 10px;
-    margin-left: 34px;
-    margin-top: 10px;
+    font-size: 20px;
+    text-align: start;
+    margin-top: -20px;
+    margin-bottom: 5px;
 }
 
 .ansLabel{
-    float: left;
-    font-size: 10px;
-    margin-left: 34px;
-    text-align: left;
-    margin-top: 5px;
+    text-align: start;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 5px;
 }
 
 
 input {
     
     outline: none;
-    width: 120px;
-    height: 12px;
-    font-size: 8px;
+    width: 250px;
+    height: 30px;
+    font-size: 20px;
 }
 
 
 .add{
-    height: 18px;
-    width: 18px;
+    height: 36px;
+    width: 50px;
     margin: 0px;
-    position: relative;
-    left: -2px;
-    bottom: -2px;
+    margin-left: -1px;
 }
 
 #option{
-    width: 102px;
+    width: 200px;
+    height: 30px;
 }
 
 form{
     display: flex;
     flex-direction: column;
+    text-align: start;
 }
 
 .ans{
@@ -121,25 +139,23 @@ form{
 
 li{
     list-style: none;
-    font-size: 10px;
+    font-size: 20px;
     text-align: left;
-    margin-left: 34px;
     margin-top: 2px;
     margin-bottom: 2px;
     background-color: transparent;
-    padding-left: 5px;
-    width: 120px;
-    font-size: 10px;
+    padding-left: 10px;
+    width: 200px;
     font-weight: 400;
     color: black;
     border: 1px solid #dd7429;
 }
 
 .btnStyle{
-    width: fit-content;
+    width: 150px;
     padding-left: 5px;
     padding-right: 5PX;
-    height: 20px;
-    font-size: 10px;
+    height: 50px;
+    font-size: 20px;
     margin-left: 10px;
 }
